@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+    tools:context=".Activity.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/ic_logo2"/>
+
+
+        <TextView
+            android:id="@+id/tw_title"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="PETNER"
+            android:textColor="#3E3E3E"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+<!--    <HorizontalScrollView-->
+<!--        android:id="@+id/story"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:paddingLeft="8dp"-->
+<!--        android:scrollbarThumbHorizontal="@android:color/darker_gray"-->
+<!--        android:scrollbars="none">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <GridLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="18dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView1"-->
+<!--                    android:layout_width="46dp"-->
+<!--                    android:layout_height="46dp"-->
+<!--                    android:background="@drawable/image_story"-->
+<!--                    app:srcCompat="@android:drawable/ic_menu_camera" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="name"-->
+<!--                    android:textColor="#3E3E3E"-->
+<!--                    android:textSize="10dp" />-->
+<!--            </GridLayout>-->
+
+<!--            <GridLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="18dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView2"-->
+<!--                    android:layout_width="46dp"-->
+<!--                    android:layout_height="46dp"-->
+<!--                    android:background="@drawable/image_story"-->
+<!--                    app:srcCompat="@android:drawable/ic_menu_camera" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="name"-->
+<!--                    android:textColor="#3E3E3E"-->
+<!--                    android:textSize="10dp" />-->
+<!--            </GridLayout>-->
+
+<!--            <GridLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="18dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView3"-->
+<!--                    android:layout_width="46dp"-->
+<!--                    android:layout_height="46dp"-->
+<!--                    android:background="@drawable/image_story"-->
+<!--                    app:srcCompat="@android:drawable/ic_menu_camera" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="name"-->
+<!--                    android:textColor="#3E3E3E"-->
+<!--                    android:textSize="10dp" />-->
+<!--            </GridLayout>-->
+
+<!--            <GridLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="18dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView4"-->
+<!--                    android:layout_width="46dp"-->
+<!--                    android:layout_height="46dp"-->
+<!--                    android:background="@drawable/image_story"-->
+<!--                    app:srcCompat="@android:drawable/ic_menu_camera" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="name"-->
+<!--                    android:textColor="#3E3E3E"-->
+<!--                    android:textSize="10dp" />-->
+<!--            </GridLayout>-->
+
+<!--            <GridLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="18dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView5"-->
+<!--                    android:layout_width="46dp"-->
+<!--                    android:layout_height="46dp"-->
+<!--                    android:background="@drawable/image_story"-->
+<!--                    app:srcCompat="@android:drawable/ic_menu_camera" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="name"-->
+<!--                    android:textColor="#3E3E3E"-->
+<!--                    android:textSize="10dp" />-->
+<!--            </GridLayout>-->
+
+<!--            <GridLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="18dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView6"-->
+<!--                    android:layout_width="46dp"-->
+<!--                    android:layout_height="46dp"-->
+<!--                    android:background="@drawable/image_story"-->
+<!--                    app:srcCompat="@android:drawable/ic_menu_camera" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="name"-->
+<!--                    android:textColor="#3E3E3E"-->
+<!--                    android:textSize="10dp" />-->
+<!--            </GridLayout>-->
+
+<!--            <GridLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="18dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView7"-->
+<!--                    android:layout_width="46dp"-->
+<!--                    android:layout_height="46dp"-->
+<!--                    android:background="@drawable/image_story"-->
+<!--                    app:srcCompat="@android:drawable/ic_menu_camera" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="name"-->
+<!--                    android:textColor="#3E3E3E"-->
+<!--                    android:textSize="10dp" />-->
+<!--            </GridLayout>-->
+
+<!--            <GridLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="18dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView8"-->
+<!--                    android:layout_width="46dp"-->
+<!--                    android:layout_height="46dp"-->
+<!--                    android:background="@drawable/image_story"-->
+<!--                    app:srcCompat="@android:drawable/ic_menu_camera" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="name"-->
+<!--                    android:textColor="#3E3E3E"-->
+<!--                    android:textSize="10dp" />-->
+<!--            </GridLayout>-->
+
+<!--            <GridLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="18dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView9"-->
+<!--                    android:layout_width="46dp"-->
+<!--                    android:layout_height="46dp"-->
+<!--                    android:background="@drawable/image_story"-->
+<!--                    app:srcCompat="@android:drawable/ic_menu_camera" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="name"-->
+<!--                    android:textColor="#3E3E3E"-->
+<!--                    android:textSize="10dp" />-->
+<!--            </GridLayout>-->
+
+<!--            <GridLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="18dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView10"-->
+<!--                    android:layout_width="46dp"-->
+<!--                    android:layout_height="46dp"-->
+<!--                    android:background="@drawable/image_story"-->
+<!--                    app:srcCompat="@android:drawable/ic_menu_camera" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="name"-->
+<!--                    android:textColor="#3E3E3E"-->
+<!--                    android:textSize="10dp" />-->
+<!--            </GridLayout>-->
+
+<!--        </LinearLayout>-->
+<!--    </HorizontalScrollView>-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/my_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="48dp"
+            android:divider="#FFFFFF"
+            android:dividerHeight="0px" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:background="#ffffff"
+            android:gravity="center">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <android.widget.Button
+                android:id="@+id/btn_home"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/home_clicked" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <android.widget.Button
+                android:id="@+id/btn_notice"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/notice" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <android.widget.Button
+                android:id="@+id/btn_upload"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/upload" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <android.widget.Button
+                android:id="@+id/btn_protect"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/protect" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <android.widget.Button
+                android:id="@+id/btn_profile"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/profile" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

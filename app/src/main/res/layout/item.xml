@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rectangle_22dp"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="11dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:cardCornerRadius="20dp">
+
+                <ImageButton
+                    android:id="@+id/profileImage"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_logo2" />
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PETNER"
+                    android:textColor="#3E3E3E"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/imageButton5"-->
+<!--                android:layout_width="48dp"-->
+<!--                android:layout_height="48dp"-->
+<!--                android:layout_alignParentRight="true" />-->
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="11dp"
+            android:gravity="center"
+            android:text="제목입니다."
+            android:paddingLeft="5dp"
+            android:textColor="#3E3E3E"
+            android:textSize="14dp"
+            android:background="@null"/>
+
+
+        <ImageView
+            android:id="@+id/imageEx"
+            android:layout_width="290dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="7dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            tools:srcCompat="@tools:sample/avatars"
+            android:background="@drawable/rectangle_14dp"/>
+
+
+<!--        //좋아요와 댓글 수-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginLeft="11dp"-->
+<!--            android:layout_marginRight="11dp"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <android.widget.Button-->
+<!--                android:layout_width="48dp"-->
+<!--                android:layout_height="48dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:id="@+id/likeImage"-->
+<!--                android:background="@drawable/like_empty"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginLeft="-5dp"-->
+<!--                android:textSize="11dp"-->
+<!--                android:textColor="#3E3E3E"-->
+<!--                android:id="@+id/likeText"-->
+<!--                android:text="1.6K(좋아요)"/>-->
+
+<!--            <ImageButton-->
+<!--                android:layout_width="48dp"-->
+<!--                android:layout_height="48dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:id="@+id/reImage"-->
+<!--                android:background="@drawable/frog"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginLeft="-5dp"-->
+<!--                android:textSize="11dp"-->
+<!--                android:textColor="#3E3E3E"-->
+<!--                android:id="@+id/reText"-->
+<!--                android:text="122(댓글)"/>-->
+
+<!--        </LinearLayout>-->
+
+
+        //본문 보여주기
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp">
+
+            //추가 가능하면 댓글달은 사람 이미지 추가하깅
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="게시물 내용입니다~" />
+
+<!--            <android.widget.Button-->
+<!--                android:id="@+id/btn_more"-->
+<!--                android:layout_width="67dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:background="@drawable/btn_more"-->
+<!--                android:text="More"-->
+<!--                android:textSize="10dp" />-->
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

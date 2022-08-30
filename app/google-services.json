@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1016495959489",
+    "project_id": "petner-fb946",
+    "storage_bucket": "petner-fb946.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016495959489:android:85777c6ca8b0f3d8ded340",
+        "android_client_info": {
+          "package_name": "com.jica.petner_yuji"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016495959489-3h1tv4jeerjuq328gt4ajm6qnoq40qa1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAJfGVjZbIVsOT_nl5q85YHo69Y3br3vE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016495959489-3h1tv4jeerjuq328gt4ajm6qnoq40qa1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

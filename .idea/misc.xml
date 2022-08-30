@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.12" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable-v24/profile_image.xml" value="0.25" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/btn_confirm.xml" value="0.302" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/btn_more.xml" value="0.1885" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/button_pattern.xml" value="0.1955" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/et1_backgroud.xml" value="0.138" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/ic_id.xml" value="0.2745" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/ic_lc_main.xml" value="0.28" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/ic_login_img.xml" value="0.308" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/ic_logo.xml" value="0.124" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/ic_top.xml" value="0.308" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/image_story.xml" value="0.232" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/img_round.xml" value="0.233" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/post_pic.xml" value="0.164" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/profile.xml" value="0.239" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/profile_i.xml" value="0.17" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/profile_img.xml" value="0.17" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/profile_style.xml" value="0.219" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/rectangle_14dp.xml" value="0.1945" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/rectangle_22dp.xml" value="0.2155" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/round_post.xml" value="0.173" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/text_back.xml" value="0.308" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/drawable/text_back2.xml" value="0.3345" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/activity_animal.xml" value="0.309375" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/activity_animal_map.xml" value="0.25" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/activity_loading.xml" value="0.33" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/activity_loding.xml" value="0.36614583333333334" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/activity_login_request.xml" value="0.25677083333333334" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/activity_my_page.xml" value="0.2838283828382838" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/activity_picture.xml" value="0.36614583333333334" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/activity_post.xml" value="0.22447916666666667" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/activity_register_request.xml" value="0.25677083333333334" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/activity_shelter.xml" value="0.25" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/activity_sign_in.xml" value="0.29583333333333334" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/activity_test.xml" value="0.246875" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/activity_writepost.xml" value="0.25" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/animal_item.xml" value="1.25" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/img.xml" value="0.3020833333333333" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/item.xml" value="0.5879218472468917" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/list_img.xml" value="0.3921875" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/shelter.xml" value="0.33" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/shelter_item.xml" value="0.22552083333333334" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/simple_list_item_1.xml" value="0.14722222222222223" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/layout/view_loader.xml" value="0.18333333333333332" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1945" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1945" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/xml/file_path.xml" value="0.20925925925925926" />
+        <entry key="..\:/WAWork/AndroidWork/Petner_yuji/app/src/main/res/xml/network_security_config.xml" value="0.1388888888888889" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
